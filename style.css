@@ -2,11 +2,11 @@
 width: 210px;
 height: 210px;
 }
-.sanpham1{
+.product1{
     display:flex;
     justify-content: center;
 }
-.sanpham2{
+.product2{
     display:flex;
     justify-content: center;
 }
