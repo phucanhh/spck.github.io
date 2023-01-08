@@ -223,7 +223,8 @@ input{
 }
 
 #Headersp{
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-top: -80px;
 }
 
 .quangcao{
@@ -237,7 +238,7 @@ input{
 }
 
 .footer{
-    background-color: pink;
+ background-image: url(./image/PA5.png);
     width: 100%;
     color:white;
     height: 200px;
@@ -259,7 +260,36 @@ input{
     height: 286px;
 }
 .logomindx{
-   margin-top: 50px;
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
+
+}
+.col{
+    display: flex;
+}
+.col1{
+  width: 200px;
+    margin-left: 300px;
+    margin-top: 90px;
+    height: 100%;
+
+}
+.col2{
+    width: 100px;
+    margin-right: 100px;
+    
+    margin-top: 50px;
+    height: 100%;
+}
+.col3{
+    width: 75px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height: 100%;
+}
+.col4{
+    width: 200px;
+    margin-right: 170px;
+    margin-top: 50px;
+    height: 100%;
 }
