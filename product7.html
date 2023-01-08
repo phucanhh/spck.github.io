@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tẩy chì</title>
+    <title>Đèn lồng</title>
     <link rel="stylesheet" href="./index.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./product/product.css">
+    <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="./image/logo-01.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
+<body>
 <div class="header">
   <div class="headertop">
     <div class="top1">
@@ -37,7 +38,7 @@
 </div>
 <div class="menu">
   <ul>
-    <li> <a href="">Trang chủ</a> </li>
+     <li> <a href="./index.html">Trang chủ</a> </li>
     <li> <a href="">Thông báo</a> </li>
     <li> <a href="">Đăng ký</a> </li>
     <li> <a href="">Đăng nhập</a> </li>
@@ -47,11 +48,31 @@
   </ul>
 </div>
 <div class="sanphamchinh">
-  <img class="anhsp" src="./image/taycute.jfif" alt="">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/d50ec9bdce3cc5b877f789cc0faeddac.jpg" class="anhsp" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./image/13ddbba934fe8d68fa568becd806275d.jpg" class="anhsp" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./image/7c4c1207ee225d963c1c3c8e88cfa0d0.jpg" class="anhsp" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   <div style="margin-top: 50px;">
-    <h1>Tẩy chì</h1>
+    <h1>Đèn lồng</h1>
     <div style="display: flex;">
-      <p style="margin-bottom:-20px; opacity: 70%;">Mã sản phẩm: </p>
+        <p style="margin-bottom:-20px; opacity: 70%;">Mã sản phẩm: ĐL001</p>
         <div class="2">
            
           </div>
@@ -60,11 +81,8 @@
           </div>
         
     </div>
-    <h1 style="margin-top: 20px">10.000đ</h1>
-    <h5 style="margin-top: 20px" >Màu sắc : <button type="button" class="btn btn-danger">Đỏ </button>
-      <button style="background-color: rgb(184, 59, 184);border: none;" type="button" class="btn btn-danger">Tím</button>
-    
-      <button style="background-color: orangered;border: none;" type="button" class="btn btn-danger">Cam</button> </h5>
+    <h1 style="margin-top: 20px">5000/chiếc</h1>
+   
       <div class="soluong"><h5 style="margin-top: 20px">Số lượng</h5>
 <input class="input" type="number" min="1" max="10">
       </div>

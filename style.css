@@ -1,4 +1,12 @@
+body{
+    overflow-x: hidden;
+}
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .anhminhhoa{
 width: 210px;
 height: 210px;
@@ -277,21 +285,27 @@ input{
 
 }
 .col2{
-    width: 100px;
+    width: 150px;
     margin-right: 100px;
-    
     margin-top: 50px;
     height: 100%;
+    justify-content: center;
+    text-align: center;
 }
 .col3{
     width: 75px;
-    margin-right: 100px;
+    margin-right: 60px;
     margin-top: 50px;
     height: 100%;
+    justify-content: center;
+    text-align: center;
+    
 }
 .col4{
     width: 200px;
-    margin-right: 170px;
+    margin-right: 200px;
     margin-top: 50px;
     height: 100%;
+    justify-content: center;
+    text-align: center;
 }
