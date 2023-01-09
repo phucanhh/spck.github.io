@@ -9,14 +9,19 @@ margin-left: 480px;
 text-align: center;
 }
 
-
+@font-face {
+    font-family: ongdo;
+    src: url("/font/vnithufap2.ttf");
+}
 
 .login{
-    color:white;
+    color:yellow;
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-
+    margin-top: 50px;
+    font-family: ongdo;
+    letter-spacing: 10px;
 }
 
 input{
@@ -29,28 +34,33 @@ input{
     font-size:medium;
     color: yellow;
     background: transparent;
-    border: 1px solid yellow;
-   
-    
+    border: 0.5px solid yellow;
+    outline: none;
+    box-shadow: 0 0 10px yellow;
 }
 
-::placeholder{
+input::placeholder{
     color:yellow;
-    opacity: 50%;
+    opacity: 30%;
+    font-weight: lighter;
+    padding-left: 23px;
 }
 button{
     margin-top: 20px;
     cursor: pointer;
     border-radius: 3px;
-    color:white;
+    color:yellow;
     background: transparent;
     border: 1px solid yellow;
-    height: 30px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
 }
 button:hover{
 
-    height: 30px;
+    width: 140px;
     background-color: yellow;
+    color: white;
     transition: 1s;
 
 }
