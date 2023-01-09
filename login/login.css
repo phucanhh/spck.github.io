@@ -11,11 +11,12 @@ text-align: center;
 }
 
 .login{
-    color:white;
+    color:yellow;
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-    
+    font-family: ongdo;
+    letter-spacing: 10px;
 }
 
 input{
@@ -29,30 +30,40 @@ input{
     color: yellow;
     background: transparent;
     border: 1px solid yellow;
-   
-    
-
-    
+    background: transparent;
+    border: 0.5px solid yellow;
+    outline: none;
+    box-shadow: 0 0 10px yellow;
 }
 
-::placeholder{
+input::placeholder{
     color:yellow;
-    opacity: 50%;
+    opacity: 30%;
+    font-weight: lighter;
+    padding-left: 23px;
+}
+
+@font-face {
+    font-family: ongdo;
+    src: url("/font/vnithufap2.ttf");
 }
 
 button{
     margin-top: 20px;
     cursor: pointer;
     border-radius: 3px;
-    color:white;
+    color:yellow;
     background: transparent;
     border: 1px solid yellow;
-    height: 30px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
 }
 button:hover{
 
-    height: 30px;
+    width: 140px;
     background-color: yellow;
+    color: white;
     transition: 1s;
 
 }
